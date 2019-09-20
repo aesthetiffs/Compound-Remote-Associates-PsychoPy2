@@ -63,6 +63,32 @@ Under the GNU license, you are free to modify this code for your personal/resear
 
 ### Modifying Task Instructions
 Instructions for the CRA task are CSV files, which means you can edit them in whatever program you typically use to edit CSV files (e.g., Excel, Notepad). 
+* __Introductory CRA instructions__ (cra_instr.csv / cra_instr_input.csv) 
+	* Contains all of the instructions for participants new to the CRA task. 
+	* Explains what CRAs problems are, and how to solve them.
+	* Explains insight and analysis.
+	* Steps through the basic solving procedure (spacebar, solution, insight/analysis) with participants.
+* __Shorter (reminder) CRA instructions__ (cra_reinstr.csv)
+	* If participants are returning to the CRA task from another task, you might want to replace the Introductory CRA instructions with this briefer reminder version.
+*  __Break__ (break.csv)
+	* Indicates end of a block, when participants can take a break.
+*  __End of task__ (end.csv)
+	* Indicates the end of the task.
+
+#### Instruction CSV file structure
+There are only two columns in each instructions file: "instructions" and "key".
+
+__instructions__
+* Contains the instruction text. 
+* Each row is a new "slide" in the instructions. 
+* Line breaks are denoted by double quotation marks ( " ).
+
+__key__
+* The key the experimenter or participant should press to advance the script to the next "slide".
+* By default, experimeter advance is LEFT SHIFT (lshift) and participant advance is SPACEBAR (space).
+
+#### A note on saving CSV files with Excel: 
+When you save the changes, you should make sure that they were saved as a CSV (Comma delimited) file. Saving as a UTF-8 CSV file will raise errors in PsychoPy2.
 
 ## Common Issues
 #### If you are on Windows 10 ver 1903, you may encounter this error:
