@@ -35,6 +35,29 @@ __Note__: You can prevent any accidental keyboard input from distrupting the cod
 3. Test CRA problems, repeatign the steps under practice CRA problems for each CRA problem.
 4. Break screen / End of task screen
 
+## Default Settings
+Below are the settings that I used by default when compiling this code. To change any of these settings, please refer to the Modifications section below.
+
+### Keypresses
+* __To advance the instructions (experimenter)__: LEFT SHIFT (lshift)
+* __To quit the experiment (experimenter)__: ESC (esc)
+* __To advance to next problem (participant)__: SPACEBAR (space)
+* __Solution reached (participant)__: SPACEBAR (space)
+* __Solution reached by insight (participant)__: F key 
+* __Solution reached by analysis (participant)__: J key
+
+### Timing
+* __Fixation Presentation Time__: 0.8 seconds (800 ms)
+* __CRA Presentation Time (Solution Window)__: 15 seconds
+
+### Solution Input
+There are two versions of this task:
+* __Verbal input__ (cra_verbal_input.py)
+	* Participant gives a verbal solution to the experimenter.
+	* Experimenter inputs whether the solution was correct (__A key__) or incorrect (__Z key__).
+* __Participant input__ (cra_ppt_input.py) 
+	* Participant types the solution into a dialog/text box that pops up after they indicate they have reached solution (pressed spacebar).
+
 ## Modifications
 Under the GNU license, you are free to modify this code for your personal/research use. You can refer to the sections below (or the comments included in the python code) to help you understand the structure of this code.
 
