@@ -90,6 +90,41 @@ __key__
 #### A note on saving CSV files with Excel: 
 When you save the changes, you should make sure that they were saved as a CSV (Comma delimited) file. Saving as a UTF-8 CSV file will raise errors in PsychoPy2.
 
+### Modifying Script Components
+There are several components that can be modified in the script directly. You can change the text in these components directly in the code. Approximate line numbers for each component are referenced here to make finding the component easier (assuming you are modifying a clean version of the code).
+
+#### Experimental Information
+* Experiment name (default: "CRA") ~ Line 22-23 
+```
+expName = 'CRA'  #name of your experiment
+```
+* Conditions (default: "1", "2") ~ Line 55-56
+```
+condition_list = ['1','2']
+```
+
+#### Sound on fixation
+You can add a sound that plays when the fixation cross is shown.
+
+Uncomment the following lines:
+Approximately lines 136-138
+```
+# ready = sound.Sound('A', octave=4, sampleRate=44100, secs=0.8)
+# ready.setVolume(0.8)
+```
+
+Approximately line 257 ~ 266
+```
+ # ready.play()
+```
+
+#### Code does not autosave upon crashing/esc 
+If, for whatever reason, PsychoPy is not automatically saving the output as a CSV file after a program crash or hitting ESC to exit, you can uncomment this line:
+Approximately line 155~156
+```
+# thisExp.saveAsWideText(thisExp.dataFileName + '.csv', delim=',')
+```
+
 ## Common Issues
 #### If you are on Windows 10 ver 1903, you may encounter this error:
 ```
@@ -105,3 +140,6 @@ Possible fixes include:
 
 #### Issues with full screen and participant input
 Due to limitations native to PsychoPy, you cannot use fullscreen with the participant input version of the CRA task.  The dialog box (where participants input their solution) is designed (by PsychoPy) to appear behind a fullscreen, so it does not appear when fullscreen is on. Although it seems like this issue has previously been addressed by PsychoPy [here](https://discourse.psychopy.org/t/dialog-boxes-and-fullscr-windows/2373), in my experience, it does not always work. For this reason, we keep fullscreen off for this version of the CRA task.
+
+## Other Questions/Bug Reports
+Feel free to contact me via [email](https://mailhide.io/e/etceE) if you have any questions about using this code or if you encounter any strange errors/bugs (you can alternatively submit an issue on GitHub).
