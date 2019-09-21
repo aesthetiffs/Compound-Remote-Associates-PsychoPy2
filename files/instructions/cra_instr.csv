@@ -1,0 +1,14 @@
+instructions,key
+"Today, you will work on a problem solving task.""""In this task, you will see 3 words. You will need to think of a 4th word that can be combined with EACH of the 3 words to form a common compound-word or phrase. """"For example, what word can be combined with... ""pine""crab""sauce",lshift
+"The solution word (APPLE) can precede or follow each problem word. ""For example: """"pine-APPLE""crab-APPLE""APPLE-sauce",lshift
+"After you solve a problem, we will ask you whether you solved the problem by INSIGHT or by ANALYSIS.",lshift
+"An insight or Aha! moment often feels sudden and surprising, as if you just know the solution works with all 3 problem words. ""In addition, you might be unable to explain how you reached the solution if you solved by insight.",lshift
+"Analysis feels more deliberate and you might be more likely to report the steps you took to get to the solution. ""For example, when you saw the problem """"pine""crab""sauce """"you might have tried to add -apple to all three words one at a time and then test if the compounds produced are valid.",lshift
+"There may be situations in which you solved the problem by insight, but verified that the solution works with all 3 words analytically. In this case, you would report that you solved the problem by INSIGHT, NOT by analysis.",lshift
+"No solution type is better or worse than the other, and there are no right or wrong answers in reporting insight or analysis. """"Do you have any questions about the task so far?",lshift
+"Now, we will walk you through what each trial looks like.",lshift
+"First, you will see a small cross on the screen. This means the problem is about to come up. """"Then, you will see 3 words on the screen. For example, PINE, CRAB, and SAUCE."""" Again, your task is to think of a 4th word that form a compound word or phrase with EACH of these 3 words.",lshift
+"You should press the SPACEBAR as soon as you come up with the solution, and then say the solution aloud.",lshift
+"Finally, you will see a screen asking if you solved the problem by insight or by analysis. ""If you solved by insight, you will press F - the left button.""If you solved by analysis, you will press J - the right button.""""Don't worry about memorizing this - you will be reminded about it if you solve the problem.",lshift
+These problems are really difficult! Don't be too hard on yourself if you don't find many solutions; just try your best! :),lshift
+"We will do some practice problems first.""""When you are ready to try the practice problems, press the spacebar.",space
