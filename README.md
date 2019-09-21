@@ -86,6 +86,7 @@ __instructions__
 __key__
 * The key the experimenter or participant should press to advance the script to the next "slide".
 * By default, experimeter advance is LEFT SHIFT (lshift) and participant advance is SPACEBAR (space).
+* If you want to change the key to a NUMERIC (e.g., '2' key), you must save the key column as TEXT. This will be easy if you are editing the CSV in a text editor (you would encapsulate the 2 with single quotations, like so: '2'). In Excel, you must select the column and change the number format to TEXT.
 
 #### A note on saving CSV files with Excel: 
 When you save the changes, you should make sure that they were saved as a CSV (Comma delimited) file. Saving as a UTF-8 CSV file will raise errors in PsychoPy2.
