@@ -9,6 +9,11 @@ __*Note*: This repo does NOT contain a full set of CRA problems. This is to prev
 
 ## Citing This Code & License Information
 If you use this code in your experiments, please cite my Github Repository in your publications!
+```
+Tiffani Ng. (2019, September 21). Compound Remote Associates task for PsychoPy2 (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.3457283
+```
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3457283.svg)](https://doi.org/10.5281/zenodo.3457283)
 
 This code is licensed under the GNU General Public License v3.0. You may modify the code for your personal/research use; however, any modifications made for distributed must be documented and attributed to the source (this repo) under the same license. You may read more about what you can do with this licensed work [here](https://choosealicense.com/licenses/gpl-3.0/). 
 
