@@ -5,7 +5,7 @@ This Compound Remote Associates (CRA) task was developed in the Beeman Lab and i
 
 With this code, you can present any number of CRA problems for a given time period (e.g., 15 seconds). Participants can make either a verbal response (which requires an experimenter to score the responses) or input their responses directly in PsychoPy. Participants will also be asked how they solved the problem: whether by insight or by analysis. For an example of a typical CRA trial, see the gif below!
 
-![Example of a CRA trial](https://tiffaning.com/files/images/cra_preview.gif)
+![Example of a CRA trial](https://tiffaning.com/files/images/cra_preview.gif?)
 
 __*Note*: This repo does NOT contain a full set of CRA problems. This is to prevent potential participants from having complete access to CRA solutions (for MTurk studies, etc). If you require a list of CRA problems, you can contact me directly via [email](https://mailhide.io/e/etceE).__
 
